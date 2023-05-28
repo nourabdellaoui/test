@@ -1,10 +1,105 @@
-.navbar-brand {
-  position: absolute;
-  width: 100%;
-  left: 0;
-  text-align: center;
+body{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  width: 90%;
   margin: 0 auto;
 }
-.navbar-toggle {
-  z-index: 3;
+.navbar{
+  width: 100%;
+  background-color: #e6270d;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.navbar ul li{
+  list-style: none;
+}
+
+.navbar ul{
+  display: flex;
+  align-items: center;
+
+}
+
+.navbar ul li a{
+  margin: 0 1.3rem;
+  text-decoration: none;
+  font-size: 1.3rem;
+  color: #fff;
+  font-weight: bolder;
+}
+.navbar ul li a{
+  width: 100%;
+  padding-top: 0;
+}
+.navbar ul li:hover{
+ 
+  background-color: #456484;
+}
+
+.hero{
+  padding: 20px;
+  height: 500px;
+  background-color: #000;
+  text-align: center;
+  color: #fff;
+}
+.hero h1{
+  padding-top: 9.5rem ;
+  font-size: 3.3rem;
+}
+
+.hero p{
+  font-size: 2.5rem;
+  color: red;
+  font-style: italic;
+  font-weight: bolder;
+}
+
+.project-container{
+  padding: 20px;
+  text-align: center;
+  background-color: #456484;
+}
+.card-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card{
+  width: 30%;
+  margin: 1.5rem 0;
+  background-color: #2d4053
+
+}
+
+.card h3{
+  color: #fff;
+  margin:0.3rem;
+  font-size: 1.5rem;
+}
+
+.card small{
+  font-size: 1rem;
+  color: #fff;
+}
+
+.card img {
+  width: 100%;
+}
+
+button{
+  background-color:#2d4053;
+  color: #fff;
+  padding: 1rem 1.5rem;
+  font-size: 1.3rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
 }
